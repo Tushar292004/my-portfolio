@@ -92,10 +92,10 @@ export const DATA = {
     },
     {
       company: "Yolo</>Wolo",
-      href: "https://nvidia.com/",
+      href: "https://yolo-wolo.vercel.app",
       badges: [],
       location: "Remote",
-      title: "Web Developer Inter",
+      title: "Web Developer Intern",
       logoUrl: "/yolo-wolo.jpeg",
       start: "March 2023",
       end: "April 2023",
