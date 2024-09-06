@@ -91,7 +91,7 @@ export const DATA = {
         "Implemented a custom parking management online web system with Admin dashboard, User authentication, Listing of parking sites, booking of parking sites, Implemented JWTs, redux, monogoDB for database to store user credential and data securely. ",
     },
     {
-      company: "Yolo</>Wolo Web Developer Inter",
+      company: "Yolo</>Wolo",
       href: "https://nvidia.com/",
       badges: [],
       location: "Remote",
