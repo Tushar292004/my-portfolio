@@ -1,6 +1,4 @@
-
-
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)]
+# Portfolio
 
 Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
 
@@ -35,4 +33,3 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
    ```
 
 5. Open the [Config file](./src/data/resume.tsx) and make changes
-
