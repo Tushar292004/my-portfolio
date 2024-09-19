@@ -147,6 +147,38 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Parking Management System",
+      href: "https://github.com/Tushar292004/BusBooking-NFTs",
+      dates: "June 2024 - July 2024",
+      active: true,
+      description:
+        "Developed a Decentralized application for Ticket Booking System, using tools like hardhat-blockchain, solidity",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "Solidity",
+        "Hardhat",
+        "TailwindCSS",
+        "Ether.js",
+        "Node.js",
+        "Metamask",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/Tushar292004/BusBooking-NFTs",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Tushar292004/BusBooking-NFTs",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/bus-nft.jpeg",
+      video: "https://cdn.llm.report/openai-demo.mp4",
+    },
+    {
       title: "Navigate-SIST Website",
       href: "https://tushar292004.github.io/Sathyabama_Navigator/",
       dates: "Jan 2024 - Feb 2024",
