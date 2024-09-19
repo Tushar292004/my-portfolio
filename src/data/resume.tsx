@@ -166,7 +166,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://github.com/Tushar292004/BusBooking-NFTs",
+          href: "https://bus-booking-nfts.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
