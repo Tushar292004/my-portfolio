@@ -147,7 +147,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Parking Management System",
+      title: "NFT Based Tickiting System",
       href: "https://github.com/Tushar292004/BusBooking-NFTs",
       dates: "June 2024 - July 2024",
       active: true,
@@ -176,7 +176,7 @@ export const DATA = {
         },
       ],
       image: "/bus-nft.png",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "",
     },
     {
       title: "Navigate-SIST Website",
