@@ -175,7 +175,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/bus-nft.jpeg",
+      image: "/bus-nft.png",
       video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
