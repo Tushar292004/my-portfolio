@@ -71,7 +71,7 @@ export const DATA = {
       href: "https://atomic.finance",
       badges: [],
       location: "Remote/Onsite",
-      title: "Office Bearer",
+      title: "President - Office Bearer",
       logoUrl: "/microsoft-club.png",
       start: "May 2023",
       end: "June 2026",
