@@ -91,7 +91,6 @@ export const ResumeCard = ({
               initial={{ opacity: 0, height: 0 }}
               animate={{
                 opacity: isExpanded ? 1 : 0,
-
                 height: isExpanded ? "auto" : 0,
               }}
               transition={{
@@ -100,7 +99,16 @@ export const ResumeCard = ({
               }}
               className="mt-2 text-xs sm:text-sm"
             >
-              {description}
+              {href && (
+                <Link href={href} target="_blank" rel="noopener noreferrer">
+                  <Badge className="mb-2 cursor-pointer">
+                    Visit
+                  </Badge>
+                </Link>
+              )}
+              <div className="mt-1">
+                {description}
+              </div>
             </motion.div>
           )}
         </div>

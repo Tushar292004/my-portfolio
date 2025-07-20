@@ -10,17 +10,20 @@ export const DATA = {
   description:
     "Aspiring Full Stack Software Engineer. I love building things and helping people. Very active on LinkedIn.",
   summary:
-    "Full Stack Software Developer proficient in front-end and back-end development. Seeking to apply technical skills and creativity to deliver efficient web solutions and collaborate effectively within a dynamic team environment.",
+    "I'm a full-stack developer who values adaptability and real-world impact. Skilled in React, Next.js, Tailwind, ShadCN, and Framer Motion on the frontend, with Node.js, Express, MongoDB, and Supabase on the backend. I enjoy building scalable systems, leveraging tools like Git, Postman, JWT, and exploring GenAI technologies like LangChain, Cursor, and Agentic AI to enhance modern workflows.",
   avatarUrl: "/me.png",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "MongoDB",
-    "Express.js",
-    "MySQL",
-    "Java",
+    // Frontend
+  "React", "Next.js", "TypeScript", "Tailwind CSS", "ShadCN UI", "Framer Motion", "Aceternity UI", "Redux",
+
+  // Backend
+  "Node.js", "Express.js", "MongoDB", "MySQL", "Redis", "Firebase", "Java", "JWT", "Bcrypt", "REST APIs",
+
+  // AI & GenAI Tools
+  "LangChain", "GenAI", "Cursor", "Agentic AI",
+
+  // Platforms & DevOps
+  "Git", "GitHub Actions", "Postman", "CI/CD", "Vercel", "Linux"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -39,7 +42,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/tushar-chandak-b2b943257",
+        url: "https://www.linkedin.com/in/tusharchandak29/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -67,29 +70,55 @@ export const DATA = {
 
   work: [
     {
-      company: "Microsoft Club Sathyabama",
-      href: "https://atomic.finance",
+      company: "Medzillo",
+      href: "https://medzillo.com",
       badges: [],
-      location: "Remote/Onsite",
+      location: "Chennai, Tamil Nadu, India",
+      title: "Full Stack Developer Intern",
+      logoUrl: "/medzillo.jpg", // update this path if needed
+      start: "May 2025",
+      end: "July 2025",
+      description: [
+        "Built and launched a real-time healthtech platform from scratch, implementing CI/CD pipelines via GitHub Actions and collaborating across the full stack for consistent monthly feature releases. Developed a real-time token queueing system using Redis Pub/Sub and webhooks to sync patient queues across doctor dashboards with instant notifications. Designed optimized MongoDB schemas with strict validations and compound indexes for fast queries and minimal payloads. Implemented secure OTP-based phone authentication through a cost-effective SMS pipeline with role-based access for doctors, patients, and medical reps. Optimized image upload flow using Firebase Storage Rules, Base64 caching, and compression (720p, ≤200KB), significantly improving system performance. Worked seamlessly across Next.js App Router, Server Actions, and modern UI libraries like ShadCN, Aceternity UI, and Framer Motion to deliver features cleanly and on time."
+      ]
+    },
+    {
+      company: "HCL Tech",
+      href: "https://github.com/Tushar292004/Parking-Management-System",
+      badges: [],
+      location: "",
+      title: "HCL Project Intern",
+      logoUrl: "/hcl.png",
+      start: "July 2024",
+      end: "October 2024",
+      description: [
+        "Built a scalable full-stack Parking Management web application using the MERN stack, enabling peer-to-peer parking space listings and real-time bookings without third-party intermediaries. Implemented secure, role-based authentication using JWT and Bcrypt, managing user/admin logins, approval workflows, and protected booking operations. Designed interactive dashboards with Redux and React Forms to help seekers and owners manage spaces, bookings, reviews, and location-based searches. Participated in weekly review meetings under the HCL Project Intern Initiative, integrating feedback through agile, sprint-based development."
+      ]
+    },
+    {
+      company: "Microsoft Club Sathyabama",
+      href: "https://www.linkedin.com/posts/tusharchandak29_president-microsoft-club-sathyabama-activity-7242961520802885635-nj7D?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9SOpMBjIqkjECnoA-2Jt25htMgoWcVI70",
+      badges: [],
+      location: "Chennai, Tamil Nadu, India",
       title: "President - Office Bearer",
       logoUrl: "/microsoft-club.png",
       start: "May 2023",
-      end: "June 2026",
+      end: "July 2025",
       description:
-        "Organize Technical Events, Workshops, Competitive Programming Leagues and Hackathons while leading the team towards collaborative development Manage design, content, resource and club social handles. Continuously learn new technologies and developing innovative solutions",
+        "Led a 30+ member technical club focused on collaborative innovation through events and development. Organized university-wide technical workshops, hackathons, competitive programming leagues, and recruitment drives with 200+ participants. Oversaw multiple verticals including design, content, and club social handles while mentoring project teams and driving technical growth. Continuously explored emerging technologies and encouraged the development of real-world solutions through team-driven initiatives.",
     },
-    {
-      company: "HCL-Project Intern",
-      badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Developer Intern",
-      logoUrl: "/hcl.png",
-      start: "August 2024",
-      end: "October 2024",
-      description:
-        "Implemented a custom parking management online web system with Admin dashboard, User authentication, Listing of parking sites, booking of parking sites, Implemented JWTs, redux, monogoDB for database to store user credential and data securely. ",
-    },
+    // {
+    //   company: "HCL-Project Intern",
+    //   badges: [],
+    //   href: "https://shopify.com",
+    //   location: "Remote",
+    //   title: "Software Developer Intern",
+    //   logoUrl: "/hcl.png",
+    //   start: "August 2024",
+    //   end: "October 2024",
+    //   description:
+    //     "Implemented a custom parking management online web system with Admin dashboard, User authentication, Listing of parking sites, booking of parking sites, Implemented JWTs, redux, monogoDB for database to store user credential and data securely. ",
+    // },
     {
       company: "Yolo</>Wolo",
       href: "https://yolo-wolo.vercel.app",
@@ -104,7 +133,7 @@ export const DATA = {
     },
     {
       company: "Lyft",
-      href: "https://splunk.com",
+      href: "https://www.linkedin.com/in/tusharchandak29/",
       badges: [],
       location: "Remote",
       title: "Back-End Engineer Intern",
@@ -113,19 +142,7 @@ export const DATA = {
       end: "August 2023",
       description:
         "Responsible for restructuring and developing the LYFT rental system. Revamped the car rental system, optimizing backend logic, UML Diagrams, database management, and overall architecture Worked within a larger team made up of software engineers to enhance the car rental experience",
-    },
-    {
-      company: "InternPe",
-      href: "https://li.me/",
-      badges: [],
-      location: "Remote",
-      title: "Web Developement Intern",
-      logoUrl: "/intern-pe.jpeg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Developed responsive web page designs and e-commerce websites. Introduced various DOM functionality and animation(CNDs). Finally completed a full responsive ECommerce website front-end “K20-Woods”. ",
-    },
+    }
   ],
   education: [
     {
@@ -139,13 +156,112 @@ export const DATA = {
     {
       school: "Sathyabama University",
       href: "https://www.sathyabama.ac.in/",
-      degree: "B.E. in Computer Science Engineering with Specialization BlockChain Technology",
+      degree: "B.E. in Computer Science Engineering with Specialization BlockChain Technology | CGPA: 9.28",
       logoUrl: "/sist.png",
       start: "2022",
       end: "2026",
     },
   ],
   projects: [
+    {
+      title: "CoachAI",
+      href: "https://github.com/Tushar292004/coachai",
+      dates: "January 2024 - Present",
+      active: true,
+      description:
+        "AI-powered career assistant offering mock tests, resume/cover letter generation, and up-to-date industry insights. Integrated GeminiAI with a custom RAG pipeline for context-aware interview Q&A. Built with modern, animated UI and robust backend tools like Clerk, Prisma, and NeonDB.",
+      technologies: [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "Clerk",
+        "GeminiAI",
+        "NeonDB",
+        "Zod",
+        "Inngest",
+        "Multer",
+        "TailwindCSS",
+        "ShadCN UI",
+        "Framer Motion",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://coachai-nine.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Tushar292004/coachai",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/coachai.png",
+      video: "",
+    },
+    {
+      title: "Parking Management System",
+      href: "https://github.com/Tushar292004/Parking-Management-System",
+      dates: "April 2023 - September 2023",
+      active: true,
+      description:
+        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "MongoDB",
+        "Express.js",
+        "TailwindCSS",
+        "Node.js",
+        "BootStrap",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://youtu.be/tn3DU5I2TjQ",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Tushar292004/Parking-Management-System",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ParkingManagement.png",
+      video: "",
+    },
+    {
+      title: "NFT Based Tickiting System",
+      href: "https://github.com/Tushar292004/BusBooking-NFTs",
+      dates: "June 2024 - July 2024",
+      active: true,
+      description:
+        "Developed a Decentralized application for Ticket Booking System, using tools like hardhat-blockchain, solidity",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "Solidity",
+        "Hardhat",
+        "TailwindCSS",
+        "Ether.js",
+        "Node.js",
+        "Metamask",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.linkedin.com/posts/tusharchandak29_nft-blockchain-web3-activity-7247646557330673665-f0C5",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Tushar292004/BusBooking-NFTs",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/bus-nft.png",
+      video: "",
+    },
     {
       title: "Navigate-SIST Website",
       href: "https://tushar292004.github.io/Sathyabama_Navigator/",
@@ -177,7 +293,7 @@ export const DATA = {
     {
       title: "Go Coral",
       href: "https://tushar292004.github.io/Go-Coral/",
-      dates: "June 2023 - Present",
+      dates: "June 2023 - Aug 2023",
       active: true,
       description:
         "A initiative to spread underwater ecosystem awareness. Integrated with a Techable Machine ML model, it analyzes images to determine coral reef health - healthy or bleached. The website also features a coral gallery section and a feedback form. Fully responsive and animated UI with scroll animation and carousel.",
@@ -203,69 +319,8 @@ export const DATA = {
       image: "/go-coral.jpeg",
       video: "",
     },
-    {
-      title: "Parking Management System",
-      href: "",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "React.js",
-        "Javascript",
-        "MongoDB",
-        "Express.js",
-        "TailwindCSS",
-        "Node.js",
-        "BootStrap",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "NFT Based Tickiting System",
-      href: "https://github.com/Tushar292004/BusBooking-NFTs",
-      dates: "June 2024 - July 2024",
-      active: true,
-      description:
-        "Developed a Decentralized application for Ticket Booking System, using tools like hardhat-blockchain, solidity",
-      technologies: [
-        "React.js",
-        "Javascript",
-        "Solidity",
-        "Hardhat",
-        "TailwindCSS",
-        "Ether.js",
-        "Node.js",
-        "Metamask",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://bus-booking-nfts.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Tushar292004/BusBooking-NFTs",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/bus-nft.png",
-      video: "",
-    },
+    
+    
     // {
     //   title: "Automatic Chat",
     //   href: "https://automatic.chat",
