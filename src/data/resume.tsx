@@ -78,9 +78,7 @@ export const DATA = {
       logoUrl: "/medzillo.jpg", // update this path if needed
       start: "May 2025",
       end: "July 2025",
-      description: [
-        "Built and launched a real-time healthtech platform from scratch, implementing CI/CD pipelines via GitHub Actions and collaborating across the full stack for consistent monthly feature releases. Developed a real-time token queueing system using Redis Pub/Sub and webhooks to sync patient queues across doctor dashboards with instant notifications. Designed optimized MongoDB schemas with strict validations and compound indexes for fast queries and minimal payloads. Implemented secure OTP-based phone authentication through a cost-effective SMS pipeline with role-based access for doctors, patients, and medical reps. Optimized image upload flow using Firebase Storage Rules, Base64 caching, and compression (720p, ≤200KB), significantly improving system performance. Worked seamlessly across Next.js App Router, Server Actions, and modern UI libraries like ShadCN, Aceternity UI, and Framer Motion to deliver features cleanly and on time."
-      ]
+      description: "Built and launched a real-time healthtech platform from scratch, implementing CI/CD pipelines via GitHub Actions and collaborating across the full stack for consistent monthly feature releases. Developed a real-time token queueing system using Redis Pub/Sub and webhooks to sync patient queues across doctor dashboards with instant notifications. Designed optimized MongoDB schemas with strict validations and compound indexes for fast queries and minimal payloads. Implemented secure OTP-based phone authentication through a cost-effective SMS pipeline with role-based access for doctors, patients, and medical reps. Optimized image upload flow using Firebase Storage Rules, Base64 caching, and compression (720p, ≤200KB), significantly improving system performance. Worked seamlessly across Next.js App Router, Server Actions, and modern UI libraries like ShadCN, Aceternity UI, and Framer Motion to deliver features cleanly and on time."
     },
     {
       company: "HCL Tech",
