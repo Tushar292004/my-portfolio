@@ -91,9 +91,8 @@ export const DATA = {
       logoUrl: "/hcl.png",
       start: "July 2024",
       end: "October 2024",
-      description: [
+      description:
         "Built a scalable full-stack Parking Management web application using the MERN stack, enabling peer-to-peer parking space listings and real-time bookings without third-party intermediaries. Implemented secure, role-based authentication using JWT and Bcrypt, managing user/admin logins, approval workflows, and protected booking operations. Designed interactive dashboards with Redux and React Forms to help seekers and owners manage spaces, bookings, reviews, and location-based searches. Participated in weekly review meetings under the HCL Project Intern Initiative, integrating feedback through agile, sprint-based development."
-      ]
     },
     {
       company: "Microsoft Club Sathyabama",
