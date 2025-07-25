@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Tushar Chandak",
   initials: "TC",
-  url: "https://tushar.io",
+  url: "https://portfolio-tushardevs-projects.vercel.app/",
   location: "Chennai, India",
   locationLink: "https://www.google.com/maps/place/chennai",
   description:
