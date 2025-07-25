@@ -202,7 +202,7 @@ export const DATA = {
       dates: "April 2024 - September 2024",
       active: true,
       description:
-        " Built a scalablefull-stack Parking Management web app using the MERN stack, enablin gpeer-to-peer space listings and real-time bookings without intermediaries. Engineered secure,role-based authentication using JWT and Bcrypt, supporting user/admin logins, space approval flows,and protected booking operations. Designed interactive dashboards with Redux and ReactForms for seekers/owners to manage spaces, bookings, reviews, and location-based searches. Participated in weekly review meetings under the HCL Project Intern Initiative, incorporating feedback into sprint-based agile development.",
+         "Engineered a scalable MERN stack Parking Management web app facilitating intermediary-free peer-to-peer space listings and real-time bookings. Implemented robust JWT/Bcrypt authentication and designed Redux/ReactForms dashboards for comprehensive space, booking, and search management.",
       technologies: [
         "React.js",
         "Redux",
