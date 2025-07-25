@@ -87,8 +87,8 @@ export const DATA = {
       location: "",
       title: "HCL Project Intern",
       logoUrl: "/hcl.png",
-      start: "July 2024",
-      end: "October 2024",
+      start: "April 2024",
+      end: "September 2024",
       description:
         "Built a scalable full-stack Parking Management web application using the MERN stack, enabling peer-to-peer parking space listings and real-time bookings without third-party intermediaries. Implemented secure, role-based authentication using JWT and Bcrypt, managing user/admin logins, approval workflows, and protected booking operations. Designed interactive dashboards with Redux and React Forms to help seekers and owners manage spaces, bookings, reviews, and location-based searches. Participated in weekly review meetings under the HCL Project Intern Initiative, integrating feedback through agile, sprint-based development."
     },
@@ -163,7 +163,7 @@ export const DATA = {
     {
       title: "CoachAI",
       href: "https://github.com/Tushar292004/coachai",
-      dates: "January 2024 - Present",
+      dates: "March  2025 - Present",
       active: true,
       description:
         "AI-powered career assistant offering mock tests, resume/cover letter generation, and up-to-date industry insights. Integrated GeminiAI with a custom RAG pipeline for context-aware interview Q&A. Built with modern, animated UI and robust backend tools like Clerk, Prisma, and NeonDB.",
@@ -199,12 +199,13 @@ export const DATA = {
     {
       title: "Parking Management System",
       href: "https://github.com/Tushar292004/Parking-Management-System",
-      dates: "April 2023 - September 2023",
+      dates: "April 2024 - September 2024",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        " Built a scalablefull-stack Parking Management web app using the MERN stack, enablin gpeer-to-peer space listings and real-time bookings without intermediaries. Engineered secure,role-based authentication using JWT and Bcrypt, supporting user/admin logins, space approval flows,and protected booking operations. Designed interactive dashboards with Redux and ReactForms for seekers/owners to manage spaces, bookings, reviews, and location-based searches. Participated in weekly review meetings under the HCL Project Intern Initiative, incorporating feedback into sprint-based agile development.",
       technologies: [
         "React.js",
+        "Redux",
         "Javascript",
         "MongoDB",
         "Express.js",
