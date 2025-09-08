@@ -8,9 +8,9 @@ export const DATA = {
   location: "Chennai, India",
   locationLink: "https://www.google.com/maps/place/chennai",
   description:
-    "Aspiring Full Stack Software Engineer. I love building things and helping people. Very active on LinkedIn.",
+    "Aspiring Full Stack Software Engineer + Agentic AI Application Developer. I love building things and helping people. Very active on LinkedIn.",
   summary:
-    "I'm a full-stack developer who values adaptability and real-world impact. Skilled in React, Next.js, Tailwind, ShadCN, and Framer Motion on the frontend, with Node.js, Express, MongoDB, and Supabase on the backend. I enjoy building scalable systems, leveraging tools like Git, Postman, JWT, and exploring GenAI technologies like LangChain, Cursor, and Agentic AI to enhance modern workflows.",
+    "I'm a full-stack developer with Agentic AI, who values adaptability and real-world impact. Skilled in React, Next.js, Tailwind, ShadCN, and Framer Motion on the frontend, with Node.js, Express, MongoDB, and Supabase on the backend, with Langchain, n8n, crewAI for AgenicAI development. I enjoy building scalable systems, leveraging tools like Git, Postman, JWT, and exploring GenAI technologies like LangChain, Cursor, and Agentic AI to enhance modern workflows.",
   avatarUrl: "/me.png",
   skills: [
     // Frontend
@@ -20,7 +20,7 @@ export const DATA = {
   "Node.js", "Express.js", "MongoDB", "MySQL", "Redis", "Firebase", "Java", "JWT", "Bcrypt", "REST APIs",
 
   // AI & GenAI Tools
-  "LangChain", "GenAI", "Cursor", "Agentic AI",
+  "LangChain", "GenAI", "Cursor", "Agentic AI", "n8n",
 
   // Platforms & DevOps
   "Git", "GitHub Actions", "Postman", "CI/CD", "Vercel", "Linux"
@@ -70,15 +70,26 @@ export const DATA = {
 
   work: [
     {
+      company: "NOKIA",
+      href: "https://www.linkedin.com/posts/tusharchandak29_kickstarting-my-mnc-journey-with-nokia-in-activity-7363519645972148225-bkrV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD9SOpMBjIqkjECnoA-2Jt25htMgoWcVI70",
+      badges: [],
+      location: "Chennai, Tamil Nadu, India",
+      title: "Student Intern",
+      logoUrl: "/nokia.jpg", // update this path if needed
+      start: "Aug 2025",
+      end: "Ongoing",
+      description: "Tested SNMP (Southbound) and developed REST APIs (Northbound) across PON infrastructure, contributing to more reliable ISP-to-user services. Applied Blackbox & Whitebox testing methods, improving system diagnostics and reducing integration issues. Supported the CNS R&D team with tools like Postman, SoapUI, and RedHat Enterprise Linux"
+    },
+    {
       company: "Medzillo",
       href: "https://medzillo.com",
       badges: [],
       location: "Chennai, Tamil Nadu, India",
-      title: "Full Stack Developer Intern",
+      title: "Software Developer Engineer Intern",
       logoUrl: "/medzillo.jpg", // update this path if needed
       start: "May 2025",
-      end: "July 2025",
-      description: "Built and launched a real-time healthtech platform from scratch, implementing CI/CD pipelines via GitHub Actions and collaborating across the full stack for consistent monthly feature releases. Developed a real-time token queueing system using Redis Pub/Sub and webhooks to sync patient queues across doctor dashboards with instant notifications. Designed optimized MongoDB schemas with strict validations and compound indexes for fast queries and minimal payloads. Implemented secure OTP-based phone authentication through a cost-effective SMS pipeline with role-based access for doctors, patients, and medical reps. Optimized image upload flow using Firebase Storage Rules, Base64 caching, and compression (720p, ≤200KB), significantly improving system performance. Worked seamlessly across Next.js App Router, Server Actions, and modern UI libraries like ShadCN, Aceternity UI, and Framer Motion to deliver features cleanly and on time."
+      end: "Aug 2025",
+      description: "Built a real-time patient queue system with Redis Pub/Sub & Webhooks, enabling instant sync across 100+ doctor dashboards. Designed efficient MongoDB schemas with compound indexes and strict validations, keeping user data ≤16KB for fast under 100ms consistent queries. Implemented a custom OTP authentication pipeline, cutting SMS costs by 95% (7INR to 0.40INR) while ensuring secure multi-role access. Optimized image upload via Firebase Rules, compression (720p, ≤200KB), and Base64 caching, reducing payload size by 70% and boosting performance. Delivered clean and timely features across the stack (Next.js App Router, Server Actions, ShadCN, Aceternity UI, Framer Motion)"
     },
     {
       company: "HCL Tech",
@@ -400,3 +411,4 @@ export const DATA = {
     },
     ],
 } as const;
+
