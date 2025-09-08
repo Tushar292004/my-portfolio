@@ -398,7 +398,7 @@ export const DATA = {
       dates: "July, 2024",
       location: "Sathyabama University, Chennai",
       description:
-        "Rewarded scholarship work INR 26000 from the college for outstading academic performance and 3rd rank holder in the branch.",
+        "Rewarded scholarship worth ₹26000 from the college for outstading academic performance and 3rd rank holder in the branch.",
       image:
         "/scholarship.jpeg",
       links: [
@@ -408,7 +408,23 @@ export const DATA = {
           href: "https://www.linkedin.com/posts/tushar-chandak-b2b943257_scholarship-gratitude-sathyabamauniversity-activity-7214627686743232513-azCj?utm_source=share&utm_medium=member_desktop",
         },
       ],
+    },{
+      title: "Chancellor's Scholarship Scheme",
+      dates: "Aug, 2025",
+      location: "Sathyabama University, Chennai",
+      description:
+        "I've once again received the Chancellor's Scholarship 2025 from Sathyabama University, this time for securing 2nd rank in my B.E. CSE program up to the 5th semester. It's a merit-based scholarship of ₹53,000 for the academic year 2025.",
+      image:
+        "/scholarship2.jpeg",
+      links: [
+        {
+          title: "LinkedIn Post",
+          icon: <Icons.linkedin className="h-4 w-4" />,
+          href: "https://www.linkedin.com/posts/tusharchandak29_scholarship-sathyabamauniversity-activity-7366870049023811584-sztw?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD9SOpMBjIqkjECnoA-2Jt25htMgoWcVI70",
+        },
+      ],
     },
     ],
 } as const;
+
 
