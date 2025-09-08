@@ -415,7 +415,7 @@ export const DATA = {
       description:
         "I've once again received the Chancellor's Scholarship 2025 from Sathyabama University, this time for securing 2nd rank in my B.E. CSE program up to the 5th semester. It's a merit-based scholarship of ₹53,000 for the academic year 2025.",
       image:
-        "/scholarship2.jpeg",
+        "/scholarship2.jpg",
       links: [
         {
           title: "LinkedIn Post",
@@ -426,5 +426,6 @@ export const DATA = {
     },
     ],
 } as const;
+
 
 
